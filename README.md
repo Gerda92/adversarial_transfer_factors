@@ -2,7 +2,7 @@
 
 This is the code used in experiments presented in manuscript
 Adversarial Attack Vulnerability of Medical Image Analysis Systems: Unexplored Factors
-published in Medical Image Analysis journal in 2021.
+soon to be published in Medical Image Analysis journal (year 2021).
 
 ## Abstract
 
@@ -14,7 +14,7 @@ We further study the interaction of weight initialization and data differences w
 
 Our experiments show that pre-training may dramatically increase the transferability of adversarial examples, even when the target and surrogate's architectures are different: the larger the performance gain using pre-training, the larger the transferability.
 Differences in the development data between target and surrogate models considerably decrease the performance of the attack; this decrease is further amplified by difference in the model architecture.
-We believe these factors should be considered when developing security-critical MedIA systems planned to be deployed in clinical practice. We recommend avoiding using only standard components, such as pre-trained architectures and publicly available datasets, as well as disclosure of design specifications, \revised{in addition to using adversarial defense methods}. When evaluating the vulnerability of MedIA systems to adversarial attacks, various attack scenarios and target-surrogate differences should be simulated to achieve realistic robustness estimates.
+We believe these factors should be considered when developing security-critical MedIA systems planned to be deployed in clinical practice. We recommend avoiding using only standard components, such as pre-trained architectures and publicly available datasets, as well as disclosure of design specifications, in addition to using adversarial defense methods. When evaluating the vulnerability of MedIA systems to adversarial attacks, various attack scenarios and target-surrogate differences should be simulated to achieve realistic robustness estimates.
 
 ## Details
 
@@ -26,4 +26,4 @@ on networks trained on [Kaggle Diabetic Retinopathy Detection](https://www.kaggl
 The experiments on the three datasets were performed and the respective code was prepared
 by Cristina Gonzalez-Gonzalo, Gerda Bortsova, and Suzanne C. Wetstein, respectively.
 
-All models used in experiments in the manuscript can be downloaded here (the link will be available soon).
+All models used in experiments in the manuscript can be downloaded [here](http://doi.org/10.5281/zenodo.4792375).
