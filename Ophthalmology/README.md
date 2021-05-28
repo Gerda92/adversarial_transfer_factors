@@ -21,7 +21,7 @@ The Jupyter notebook called **Main.ipynb** contains the code for crafting and te
 
 **5) Attack target model.** Obtain predictions in clean and adversarial setting. Visualization of original image, adversarial image, and corresponding adversarial noise.
 
-The notebook makes use of the folder structure and files of the data repository that can be downloaded [here](link). In that data repository:
+The notebook makes use of the folder structure and files of the **data repository** that can be downloaded [here](link). In that data repository:
 
 The **metadata** folder contains:
 - CSV file (*kaggle_all_array_labels_bin.csv*) with binarized labels (non-referable DR = 0 (stages 0 and 1) and referable DR = 1 (stages 2 to 4)) for all images in the [Kaggle DR dataset](https://www.kaggle.com/c/diabetic-retinopathy-detection). 
