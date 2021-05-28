@@ -2,7 +2,7 @@
 
 ## Software prerequisites
 
-The code requires TensorFlow 1.14 and other python packages listed in [requirements.txt](link).
+The code requires TensorFlow 1.14 and other python packages listed in [requirements.txt](https://github.com/Gerda92/adversarial_transfer_factors/blob/2de1737c389049aec81bc81fb19b3502a087653d/Radiology/requirements.txt).
 Using an earlier version of h5py (2.10.0) is important for building models.
 The code was written and tested in Python 3.6 (the latest version of Python, 3.8, is not compatible with TF 1.14).
 
@@ -12,7 +12,7 @@ The ChestX-Ray14 dataset can be downloaded [here](https://www.kaggle.com/nih-che
 The code requires "Data_Entry_2017.csv" file and **the images downsampled to a 256 x 256 resolution**.
 The former and a folder contaning the latter should be in the same directory,
 which should be specified as `data_path` attribute of the parameters object
-(see [base_params.yml](link) and [params.yml](link)).
+(see [base_params.yml](https://github.com/Gerda92/adversarial_transfer_factors/blob/2de1737c389049aec81bc81fb19b3502a087653d/Radiology/base_params.yml) and [params.yml](https://github.com/Gerda92/adversarial_transfer_factors/blob/2de1737c389049aec81bc81fb19b3502a087653d/Radiology/params.yml)).
 The name of the folder with images should be specified as `images_folder` attribute of the parameters object.
 
 Trained models can be downloaded [here](link). The path to them should be specified
@@ -22,7 +22,7 @@ Attribute `results_path` should specify a name of an existing folder to save the
 
 ## Run a small experiment
 
-[example_experiment.py](link) executes an attack specified in [params.yml](link)
+[example_experiment.py](https://github.com/Gerda92/adversarial_transfer_factors/blob/2de1737c389049aec81bc81fb19b3502a087653d/Radiology/example_experiment.py) executes an attack specified in [params.yml](https://github.com/Gerda92/adversarial_transfer_factors/blob/2de1737c389049aec81bc81fb19b3502a087653d/Radiology/params.yml)
 on a sample of test set images and plots the results.
 
 ## Run experiments presented in the manuscript
