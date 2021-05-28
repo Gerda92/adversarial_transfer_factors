@@ -1,0 +1,40 @@
+# An example of a parameters file, listing all parameters necessary to run
+# an experiment using test_adversarial_attack function from compute_attacks.py.
+# example_experiment.py uses these parameters to demonstrates the use of this function
+
+data_path: '../Radiology data'                  # path to the ChestX-Ray14 data
+images_folder: 'images_proc256'                 # the name of the folder containing downsampled images
+model_path: '../Radiology models'               # path to the downloaded models
+results_path: '.'                               # path for saving the results
+
+batch_size: 32                                  # batch size for computing adversarial noise and applying networks;
+                                                # adjust this based on your GPU memory:
+                                                # batch_size == 32 should be sufficient for an 8GB GPU
+                                                
+num_batches: 800                                # number of batches to run the attack on
+                                                # specify num_batches = ceil(25596 / batch_size) to run on the entire test set
+
+
+attack_type: 'white_box'                        # 'white_box' or 'black_box'
+
+target:                                         # target model parameters
+    keras_arch: InceptionV3                     # architecture: 'InceptionV3' or 'DenseNet121'
+    pretrained: False                           # ImageNet-pretrained or randomly initialized
+    train_set: d1                               # development set
+
+surrogate:                                      # surrogate model parameters, same as above
+    keras_arch: InceptionV3
+    pretrained: False
+    train_set: d1
+    instance: 'v1'                              # a trained model instance, 'v1' or 'v2'
+
+arch_params:                                    # architecture parameters
+    input_res: [224, 224]                       # input resolution
+    num_output_maps: 15                         # number of output classes
+    final_activation: 'linear'                  # activation of the final layer
+
+attack:                                         # attack parameters
+    loss: CE                                    # name of the loss function to use for the attack (in adv_attack_func.py)
+    epsilon: 0.02                               # maximum perturbation degree
+    alpha: 0.01                                 # step size
+    num_steps: 20                               # number of iterations

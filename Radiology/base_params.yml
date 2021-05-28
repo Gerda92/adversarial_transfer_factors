@@ -1,0 +1,21 @@
+# Basis parameters used in experiments.py for all experiments.
+# For an example of a full parameters file see params.yml.
+
+data_path: '../Radiology data'                  # path to the ChestX-Ray14 data
+images_folder: 'images_proc256'                 # the name of the folder containing downsampled images
+model_path: '../Radiology models'               # path to the downloaded models
+results_path: '.'                               # path for saving the results
+
+attack_type: 'black_box'                        # 'white_box' or 'black_box'
+
+target: {}                                      # a placeholder for target model parameters
+
+surrogate: {}                                   # a placeholder for surrogate model parameters
+
+arch_params:                                    # architecture parameters
+    input_res: [224, 224]                       # input resolution
+    num_output_maps: 15                         # number of output classes
+    final_activation: 'linear'                  # activation of the final layer
+
+attack:                                         # attack parameters
+    loss: CE                                    # name of the loss function to use for the attack
