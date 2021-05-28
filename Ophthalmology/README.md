@@ -9,6 +9,8 @@ The code was written and tested in Python 3.
 
 The Kaggle Diabetic Retinopathy Detection dataset can be downloaded [here](https://www.kaggle.com/c/diabetic-retinopathy-detection/data).
 
+## File structure
+
 The Jupyter notebook called **Main.ipynb** contains the code for crafting and testing black-box attacks corresponding to the Ophthalmology application in the publication. The notebook is structured as follows:
 
 **1) Select and preprocess original image.** Load original image and create prprocessed 512x512 RGB image, which is the expected input to the trained target and surrogate models.
