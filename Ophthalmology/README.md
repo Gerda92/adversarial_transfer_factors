@@ -1,4 +1,4 @@
-# Adversarial attacks on color fundus images (Kaggle Diabetic DR dataset)
+# Adversarial attacks on color fundus images (Kaggle DR Detection dataset)
 
 ## Software prerequisites
 
@@ -10,10 +10,15 @@ The code was written and tested in Python 3.
 The Kaggle Diabetic Retinopathy Detection dataset can be downloaded [here](https://www.kaggle.com/c/diabetic-retinopathy-detection/data).
 
 The Jupyter notebook called **Main.ipynb** contains the code for crafting and testing black-box attacks corresponding to the Ophthalmology application in the publication. The notebook is structured as follows:
+
 **1) Select and preprocess original image.** Load original image and create prprocessed 512x512 RGB image, which is the expected input to the trained target and surrogate models.
+
 **2) Load surrogate model.** Load surrogate model that will be used to craft the adversarial attacks in the black-box setting.
+
 **3) Craft adversarial attack.** Define attack configuration and craft the attack using the surrogate model.
+
 **4) Load target model.** Load target model that will be attacked in the black-box setting. 
+
 **5) Attack target model.** Obtain predictions in clean and adversarial setting. Visualization of original image, adversarial image, and corresponding adversarial noise.
 
 The notebook makes use of the folder structure and files of the data repository that can be downloaded [here](link). In that data repository:
