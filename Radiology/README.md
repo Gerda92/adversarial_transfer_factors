@@ -15,7 +15,7 @@ which should be specified as `data_path` attribute of the parameters object
 (see [base_params.yml](https://github.com/Gerda92/adversarial_transfer_factors/blob/2de1737c389049aec81bc81fb19b3502a087653d/Radiology/base_params.yml) and [params.yml](https://github.com/Gerda92/adversarial_transfer_factors/blob/2de1737c389049aec81bc81fb19b3502a087653d/Radiology/params.yml)).
 The name of the folder with images should be specified as `images_folder` attribute of the parameters object.
 
-Trained models can be downloaded [here](link). The path to them should be specified
+Trained models can be downloaded [here](http://doi.org/10.5281/zenodo.4792375). The path to them should be specified
 as `model_path` attribute of the parameters object.
 
 Attribute `results_path` should specify a name of an existing folder to save the experimental results to.

@@ -16,7 +16,7 @@ p = OmegaConf.load('base_params.yml')
 
 # this will apply the attacks to all 25596 test images:
 p.batch_size = 32
-p.num_batches = 1
+p.num_batches = 800
 
 architectures = ['InceptionV3', 'DenseNet121']
 attack_methods = ['FGSM', 'PGD']

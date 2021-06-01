@@ -16,7 +16,7 @@ from compute_attacks import test_adversarial_attack
 p = OmegaConf.load('base_params.yml')
 
 p.batch_size = 32
-p.num_batches = 1
+p.num_batches = 800
 
 architectures = ['InceptionV3', 'DenseNet121']
 train_sets = ['d1', 'd2', 'd3']
