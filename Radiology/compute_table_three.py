@@ -46,9 +46,6 @@ for p.target.keras_arch in architectures:
                                    '-', '-', 'None', auc_clean, 100]
     table.to_csv(os.path.join(p.results_path, 'Table_3.csv'))
 
-    GT, pred_clean_prev = h.load_previous_results(p, clean = True)
-    auc_clean_prev = np.mean(h.roc_auc(GT, pred_clean_prev))
-
 
     for p.surrogate.keras_arch in architectures:
         for p.surrogate.train_set in train_sets:
