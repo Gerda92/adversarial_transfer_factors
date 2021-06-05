@@ -1,0 +1,10 @@
+Python 3
+
+Keras==2.2.4
+matplotlib==3.3.4
+numpy==1.16.3
+PIL==8.1.0
+scikit-image==0.15.0
+scikit-learn==0.19.1
+scipy==1.5.0
+tensorflow==1.4.0
