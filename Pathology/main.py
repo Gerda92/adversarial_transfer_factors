@@ -9,8 +9,7 @@ The notebook makes use of the folder structure and some of the files in the data
 The metadata folder contains:
 
 CSV files with the filenames of the images included in the additional data partitions (d1/10 and d2/2) used in the paper:
-Development set: d110 (equivalent to d1/10), and the corresponding filename used for training (t110) and validation (v110) for this development set.
-Development set: d22 (equivalent to d2/2), and the corresponding filename used for training (t22) and validation (v22) for this development set.
+Development sets: d1, d110 (equivalent to d1/10), d2, and d22 (equivalent to d2/2), and the corresponding filenames used for training (t1, t110, t2, t22) and validation (v1, v110, v2, v22) in each development set.
 '''
 
 metadata_folder = 'metadata/'
