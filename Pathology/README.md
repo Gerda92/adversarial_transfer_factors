@@ -23,7 +23,7 @@ The python file called **main.py** contains the code for crafting and testing bl
 
 **5) Attack target model.** Obtain predictions in clean and adversarial setting. Visualization of original image, adversarial image, and corresponding adversarial noise.
 
-The file makes use of the folder structure and files of the **data repository** that can be downloaded [here](link). In that data repository:
+The file makes use of the folder structure and files of the **data repository** that can be downloaded [here](http://doi.org/10.5281/zenodo.4792375). In that data repository:
 
 The **metadata** folder contains:
 - CSV files with the filenames of the images included in each additional data partition used in the paper:
