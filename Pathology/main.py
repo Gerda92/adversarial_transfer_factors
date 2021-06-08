@@ -4,7 +4,7 @@ G. Bortsova, C. González-Gonzalo, S. Wetstein, F. Dubost, I. Katramados, L. Hog
 Pathology
 This notebook contains the code for crafting and testing black-box attacks corresponding to the Pathology application: PatchCamelyon (PCAM) metastatic tissue detection in histopathologic scans of lymph node sections.
 
-The notebook makes use of the folder structure and some of the files in the data repository available at: add Zenodo link. In that repository:
+The notebook makes use of the folder structure and some of the files in the data repository available at: http://doi.org/10.5281/zenodo.4792375. In that repository:
 
 The metadata folder contains:
 
