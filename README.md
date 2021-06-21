@@ -1,8 +1,8 @@
 # Adversarial Attack Vulnerability of Medical Image Analysis Systems: Unexplored Factors
 
-This is the code used in experiments presented in manuscript
-Adversarial Attack Vulnerability of Medical Image Analysis Systems: Unexplored Factors
-soon to be published in Medical Image Analysis journal (year 2021).
+This is the code used in experiments presented in manuscript:
+
+Bortsova, G., González-Gonzalo, C., Wetstein, S. C., Dubost, F., Katramados, I., Hogeweg, L., Liefers, B., van Ginneken, B., Pluim, J. P. W., Veta, M., Sánchez, C. I., & de Bruijne, M. (2021). **Adversarial Attack Vulnerability of Medical Image Analysis Systems: Unexplored Factors**. Medical Image Analysis, 102141. [https://doi.org/https://doi.org/10.1016/j.media.2021.102141](https://doi.org/https://doi.org/10.1016/j.media.2021.102141)
 
 ## Abstract
 
